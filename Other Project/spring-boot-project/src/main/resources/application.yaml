@@ -1,0 +1,11 @@
+
+# it is used to log the sql on console.
+logging:
+  level:
+    sql: debug
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+
